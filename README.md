@@ -23,19 +23,19 @@ By utilizing a **Three-Level Nested Optimization Algorithm**, the system optimiz
 
 The algorithm dynamically reconfigures the supply chain network. Green nodes indicate buyers whose demand is satisfied purely through lateral transshipment, reducing total setup costs.
 
-![Network Topology](results/network_plot.png)
+![Network Topology](network_plot.png)
 
 ### 2. Algorithmic Convergence
 
 The Genetic Algorithm efficiently converges to a near-optimal solution within limited generations, demonstrating stability.
 
-![Convergence Plot](results/convergence.png)
+![Convergence Plot](convergence.png)
 
 ### 3. Sensitivity Analysis (3D Surface)
 
 We analyzed the joint effect of **Baseline Failure Rate ($\gamma$)** and **Maintenance Efficiency ($\eta$)** on Total Cost. The result provides a clear decision boundary for investing in predictive maintenance.
 
-![Sensitivity Analysis](results/sensitivity_3d.png)
+![Sensitivity Analysis](sensitivity_3d.png)
 
 > *For full interactive charts and detailed analysis, please check the [Sensitivity_Analysis.ipynb](Sensitivity_Analysis.ipynb).*
 
@@ -82,10 +82,9 @@ jupyter lab Sensitivity_Analysis.ipynb
 ├── Sensitivity_Analysis.ipynb  # Data Analysis Report & Visualization
 ├── requirements.txt            # Dependency list
 ├── README.md                   # Project Documentation
-└── results/                    # Output images for documentation
-    ├── network_plot.png
-    ├── convergence.png
-    └── sensitivity_3d.png
+├── network_plot.png
+├── convergence.png               
+└── sensitivity_3d.png                   
 ```
 
 ## 👨‍💻 Author
@@ -97,4 +96,5 @@ jupyter lab Sensitivity_Analysis.ipynb
 * **Contact:** asd1083004@gmail.com
 
 > **Note:** This repository is a research prototype implementing the algorithms described in my Master's Thesis.
+
 
