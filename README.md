@@ -25,11 +25,10 @@ The algorithm dynamically reconfigures the supply chain network. Green nodes ind
 
 ![Network Topology](network_plot.png)
 
-### 2. Algorithmic Convergence
+### 2. Cost Structure Analysis
+Analysis of cost components across different strategies. The integrated model (Strategy 4) demonstrates a balanced cost distribution while achieving the lowest total cost.
 
-The Genetic Algorithm efficiently converges to a near-optimal solution within limited generations, demonstrating stability.
-
-![Convergence Plot](convergence.png)
+![Cost Structure](cost_structure.png)
 
 ### 3. Sensitivity Analysis (3D Surface)
 
@@ -83,7 +82,7 @@ jupyter lab Sensitivity_Analysis.ipynb
 ├── requirements.txt            # Dependency list
 ├── README.md                   # Project Documentation
 ├── network_plot.png
-├── convergence.png               
+├── cost_structure.png               
 └── sensitivity_3d.png                   
 ```
 
@@ -96,5 +95,6 @@ jupyter lab Sensitivity_Analysis.ipynb
 * **Contact:** asd1083004@gmail.com
 
 > **Note:** This repository is a research prototype implementing the algorithms described in my Master's Thesis.
+
 
 
